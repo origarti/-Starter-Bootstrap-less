@@ -1,6 +1,6 @@
 # Bootstrap + Less + GulpJS (**~90%**)
 
-![Alt text](https://github.com/origarti/kickstarterZ/blob/master/bootstrap_less/www/dist/pic/header-bootstrap-less.jpg?raw=true "Optional title")
+![Alt text](https://github.com/origarti/-Starter-Bootstrap-less/blob/master/www/dist/pic/header-bootstrap-less.jpg?raw=true)
 
 # Bienvenue !
 
