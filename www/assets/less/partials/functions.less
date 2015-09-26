@@ -1,0 +1,10 @@
+// [Convert pixels value to em]
+// .class{
+//    font-size:em(16px);
+// }
+
+@base-size: 16;
+ 
+.em( @value: @base-size ) {
+    font-size: (@value / @base-size) + 0em;
+}

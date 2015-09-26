@@ -1,0 +1,92 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js oldie lt-ie9 lt-ie8 lt-ie7" lang="fr-FR"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js oldie lt-ie9 lt-ie8" lang="fr-FR"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js oldie lt-ie9" lang="fr-FR"> <![endif]-->
+<!--[if gt IE 8]><!--> 
+<html class="no-js" lang="fr-FR"> <!--<![endif]-->
+<head>
+    <meta charset="UTF-8">
+    <title>Mon projet utilisant Bootstrap & Less</title>
+    
+    <meta name="author" content="Gaëtan RUIZ" />
+    <meta name="copyright" content="©Gaëtan RUIZ" />
+    <meta name="generator" content="Bootstrap 3.3.5" />
+    <meta name="description" content="Description de mon projet">
+    <!-- Favicons -->
+        <link rel="icon" type="image/gif" href="favicon.gif" />
+        <!--[if IE]><link rel="shortcut icon" type="image/x-icon" href="favicon.ico" /><![endif]-->
+
+    <!-- FOR IOS web app -->
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <!--[if lt IE 9]>
+        <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="dist/css/style.min.css">
+
+</head>
+<body>
+    <div id="wrapper">
+        
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <!--
+                        # Jumbotron : Mettre en valeur un contenu particulier dans un bloc gris
+                        # Documentation : http://getbootstrap.com/components/#jumbotron
+                        # Note : Pour que le bloc prenne toute la largeur, sans bords arrondis,
+                        il faut le placer en dehors de tout bloc .container et placer le .container à l'intérieur
+                    -->
+                    
+                    <div class="jumbotron">
+                        <div class="container">
+                            <h1><span class="glyphicon glyphicon-flag" aria-hidden="true"></span> Bienvenue !</h1>
+                            <p>
+                                <img src="dist/pic/header-bootstrap-less.jpg" alt="#" class="img-responsive" >
+                            </p>
+                            <p>Ce projet est une base de travail créee par <strong><a href="http://origarti.fr" target="_blank">Gaëtan Ruiz</a></strong>. 
+                                Il a pour utilité de permettre de démarrer plus rapidemment un projet d'application web tout en automatisant un certain nombre de procédures destinées à améliorer grandement la productivité et la maintenabilité des sources de ce projet. 
+                                <h2>CSS</h2>
+                                <ul>
+                                    
+                                    <li>Compilation du LESS en CSS</li>
+                                    <li>Auto-préfixage du CSS</li>
+                                    <li>Minification des sources CSS</li>
+                                    <li><strong>UnCSS</strong> : le fichier .css final n'utilise que les règles de style réellement employées par les fichiers HTML définis.</li>
+                                </ul>
+
+                                <h2>Javascript</h2>
+                                <ul>
+                                    <li>Concaténation de l'ensemble des fichiers Javascript en un seul.</li>
+                                    <li>Minification des sources JS</li>
+                                </ul>
+
+                                <h2>Images</h2>
+                                <ul>
+                                    <li>Optimisation des images pour un affichage "Web"</li>
+                                </ul>
+
+                            <p>Pour cela, il utilise les technologies suivantes : </p>
+                            <ul>
+                                <li><a href="http://getbootstrap.com/">Bootstrap 3.3.5</a></li>
+                                <li><a href="http://lesscss.org/#getting-started" target="_blank">Less</a></li>
+                                <li><a href="https://jquery.com/" target="_blank">jQuery (1.9.1)</a></li>
+                                <li><a href="http://gulpjs.com/" target="_blank">GulpJS</a></li>
+                            </ul>
+
+                            <p>
+                                <a href="https://github.com/origarti/kickstarterZ" target="_blank" class="btn btn-primary btn-lg ">En savoir plus</a>
+                            </p>
+                        </div><!-- /.container -->
+                    </div><!-- /.jumbotron -->
+                </div>
+            </div>
+        </div><!-- /.container -->
+    </div><!-- /#wrapper -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="lib/jquery.min.js"><\/script>');</script>
+    <script src="dist/js/main.min.js"></script>
+</body>
+</html>
